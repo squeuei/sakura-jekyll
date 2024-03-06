@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- ============================================================================================-->
-<!-- **psstt** This is a secret page. You're not supposed to see this code! -->
-<!-- Go away! Last Warning! -->
-<!-- DAMN! You're a badass. -->
-<!-- Using minimal css framework: http://github.com/miteshninja/sakura -->
-<!-- ============================================================================================-->
+<!-- Powered by sakura, a minimal css framework: https://github.com/oxalorg/sakura -->
 <head>
     <!-- Config -->
     <meta charset="UTF-8">
@@ -15,9 +10,11 @@
     <title>{{ page.title }}</title>
 
     <!-- Assets -->
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/normalize.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/sakura.css" async>
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css" async>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sakura.css/css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sakura.css/css/sakura-earthly.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css"  media="screen"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sakura.css/css/sakura-dark.css" media="screen and (prefers-color-scheme: dark)" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom-dark.css"  media="screen and (prefers-color-scheme: dark)" />
     <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
 </head>
 

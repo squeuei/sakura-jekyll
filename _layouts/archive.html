@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<h2> {{ page.type }} : {{ page.title }}</h2>
+<ul>
+  {% for post in page.posts %}
+  <li style="padding-bottom:7px;">
+    <a class="no-border" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }} </a><small><em><span class="sakura-blossom inline-block"> {{ post.date | date: '%F' }}</span></em></small>
+</li>
+  {% endfor %}
+</ul>

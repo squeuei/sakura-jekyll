@@ -1,13 +1,15 @@
 permalink: /blog/:title
-sakura-jekyll-version: 0.9.0
+sakura-jekyll-version: 0.9.0-1
 # Information required for feed
 title: Sakura Jekyll # Change this to your site name.
 description:
 url:
 author:
     twitter: # twitter user name here
+license:
 
-date_format: "%b %d, %Y"
+date_format: "%FT%T%:z"
+timezone:
 
 defaults:
   -
@@ -40,9 +42,18 @@ footer-links:
   twitter:
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
+
+jekyll-archives:
+  enabled: 
+    - tags
+    - categories
+  layout: archive
+  permalinks:
+    tag: '/tag/:name/'
+    category: '/category/:name/'
 
 gems:
     - jekyll-sitemap
     - jekyll-feed
     - jekyll-seo-tag
+    - jekyll-archives
