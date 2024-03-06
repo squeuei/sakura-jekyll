@@ -1,4 +1,4 @@
-Jekyll theme for my blog forked from [sakura-jekyll](https://github.com/oxalorg/sakura-jekyll). It's based on the minimal css framework: [sakura](https://github.com/MiteshNinja/sakura)
+Jekyll theme for my blog forked from [sakura-jekyll](https://github.com/oxalorg/sakura-jekyll). It's based on the minimal css framework: [sakura](https://github.com/oxalorg/sakura)
 
 - Use CSSs on CDN.
 - Dark mode available.
