@@ -2,8 +2,6 @@ a{
     text-decoration: underline dotted 1px;
 }
 
-
-
 li ul {
     margin-top: 0.4em;
     margin-bottom: 0;
@@ -34,6 +32,10 @@ li ol {
 /*============================*/
 /*Helper classes*/
 /*============================*/
+
+.left-margin{
+    margin-left: 0.5em;
+}
 
 .no-border {
     border: 0;
