@@ -1,9 +1,8 @@
 a{
-    color: #A52A2A;
+    text-decoration: underline dotted 1px;
 }
-a:hover{
-    color: #BA3B3B;
-}
+
+
 
 li ul {
     margin-top: 0.4em;
