@@ -4,6 +4,7 @@ sakura-jekyll-version: 0.9.0-1
 title: Sakura Jekyll # Change this to your site name.
 description:
 url:
+baseurl:
 author:
     twitter: # twitter user name here
 license: "All Rights Reserved."
