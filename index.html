@@ -19,7 +19,7 @@ layout: default
     <nav class="chrono">
         {% for p in site.posts offset:1 limit:1 %}
             {% if p %}
-        <a class="go-right sakura-fade no-border" href="{{p.url}}">{{p.title}} &raquo;</a>
+        <a class="go-right sakura-fade no-border" href="{{site.baseurl}}{{p.url}}">{{p.title}} &raquo;</a>
             {% endif %}
         {% endfor %}
     </nav>
