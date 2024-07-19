@@ -1,13 +1,13 @@
 permalink: /blog/:year/:month/:day/:title
 sakura-jekyll-version: 0.9.0-1
 # Information required for feed
-title: Sakura Jekyll # Change this to your site name.
+title: Sakura Jekyll (modified) # Change this to your site name.
 description:
 url:
 baseurl:
 author:
     twitter: # twitter user name here
-license: "All Rights Reserved."
+license: "all rights reserved."
 
 date_format: "%FT%T%:z"
 timezone:
