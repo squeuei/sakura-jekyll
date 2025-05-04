@@ -12,4 +12,4 @@ Jekyll theme for my blog forked from [sakura-jekyll](https://github.com/oxalorg/
 
 Sites based on this theme can be built automatically with github actions. Refer to [this link](https://jekyllrb.com/docs/continuous-integration/github-actions/#setting-up-the-action).
 
-[Now you can take a look at the demo here.](https://squeuei.github.io/sakura-jekyll/)
+[Now you can take a look at the demo here.](https://squeuei.github.io/sakura-jekyll-modified/)
